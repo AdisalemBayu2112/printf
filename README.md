@@ -1,5 +1,8 @@
-	Printf
-Writing your own printf function
+	_Printf
+A formatted output conversion C program completed as part of the low-level
+programming.The program is a pseudo- recreation of the C standard library
+function, printf. The _printf function emulates functionality of the C
+standard library function printf.
 
 0. A function that produces output according to a format
 1. Handle the following conversion specifiers:
