@@ -68,7 +68,7 @@ int print_string(va_list types, char buffer[],
 		{
 			for (i = width - length; i > 0; i--)
 				write(1, " ",  1);
-			write(1, &str[0], lenth);
+			write(1, &str[0], length);
 			return (width);
 		}
 	}
@@ -134,7 +134,7 @@ int print_int(va_list types, char buffer[],
 
 	if (n < 0)
 	{
-		num = (unsigned ling int)((-1) * n);
+		num = (unsigned long int)((-1) * n);
 		is_negative = 1;
 	}
 
